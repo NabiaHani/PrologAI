@@ -1,47 +1,27 @@
-% lab conatining task related to fact(Properties) & fact(Relationships)
+female(nabia).
+female(aelia).
+male(amir).
+male(hannan).
+male(huzaifa).
+male(arbaz).
+male(hamza).
+male(mubashir).
+male(qasim).
+male(umair).
+male(abubakar).
+male(jaree).
 
-% fact Property woman
-
+father(arsalan,saima).
+father(arsalan,haris).
+father(arsalan,hania).
 woman(saima).
-woman(ayesha).
-woman(aleena).
-woman(sara).
-woman(aiman).
-
-% fact property man
-man(ahmed).
-man(bilal).
-man(huzaifa).
-
-% fact property walk
-walk(farhan).
-
-% fact property happy
+likes(ali,icecream).
 happy(ali).
-
-%fact property sad
-sad(ahsan).
-
-% fact property rich
-rich(arbaz).
-
-% fact (Relationship)
-father(arsalan,saima). % Arsalan is a father of Saima
-father(ayesha,saima). % Ayesha is a mother of saima
-drive(farhan,car). % Farhan drives Car
-likes(ali,icecream). % Ali Likes Ice Cream
-friend(ali,farhan). % Ali is a friend of farhan
-play(ali,cricket).% Ali plays cricket
-sister(faria,arham).% Faria is a sister of Arham
-enemy (sara,saima). % sara is enemy of saima
-
-% Fact
-little(john). % John is little
-forgot(ali,raincoat). % Ali forgot his raincoat
-lost(usama,keys). % usama lost his keys
-university(aims).
-is(raining).
-fly(birds).
-off(switch).
+friend(ali,farhan).
+drive(farhan,car).
+man(farhan).
+walk(farhan).
+likes(ali,icecream).
+happy(ali).
 
 
